@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerTintColor: "#27ae60" }}>
+      <Stack.Navigator screenOptions={{ headerTintColor: "#000" }}>
         <Stack.Screen
           name="Home"
           component={HomeScreen}
